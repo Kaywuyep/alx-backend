@@ -37,8 +37,8 @@ class Server:
 
     def get_hyper_index(
             self,
-            index: int = None,
-            page_size: int = 10) -> Dict[str, Any]:
+            index:int = None,
+            page_size:int = 10) -> Dict[str, Any]:
         """
         Get a page of the dataset along with pagination details.
         Args:
